@@ -16,7 +16,7 @@ const PetCare = () => {
 
   return (
     <section className="py-10 bg-blue-100 text-center">
-      
+      <h2 className="text-3xl font-bold mb-5">24/7 Vet Consultation</h2>
       <div className="flex flex-wrap justify-center gap-4">
         {/* Feeding & Nutrition Card */}
         <div className="bg-white shadow-lg rounded-lg p-8 max-w-xs w-full hover:scale-105 transform transition duration-300">
@@ -42,7 +42,7 @@ const PetCare = () => {
           <FaBath className="text-blue-500 text-5xl mb-4 mx-auto" />
           <h3 className="text-xl font-semibold mb-4">Grooming & Hygiene</h3>
           <p className="text-lg mb-6">
-            Keep your pet clean and healthy with the right grooming techniques. Discover tips and tricks!
+            Keep your pet clean and healthy with the right grooming techniques. Discover tricks!
           </p>
           <button
             onClick={() =>
@@ -80,7 +80,7 @@ const PetCare = () => {
           <FaRegCheckCircle className="text-blue-500 text-5xl mb-4 mx-auto" />
           <h3 className="text-xl font-semibold mb-4">Training Tips</h3>
           <p className="text-lg mb-6">
-            Train your pet to follow commands and behave well. Learn effective training strategies.
+            Train your pet to follow commands and behave well. Learn effective strategies.
           </p>
           <button
             onClick={() =>

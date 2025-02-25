@@ -5,6 +5,7 @@ import banner1 from "../assets/banner-img/banner1.png";
 import PetAdoption from "../components/Home/PetAdoption";
 import PetCareTips from "../components/Home/PetCareTips";
 import PetCare from "../components/Home/PetCare";
+import Faq from "../components/Home/Faq";
 
 const Home = () => {
   const [pets, setPets] = useState([]);
@@ -80,6 +81,7 @@ const Home = () => {
       <PetAdoption></PetAdoption>
       <PetCareTips></PetCareTips>
       <PetCare></PetCare>
+      <Faq></Faq>
 
 
 
