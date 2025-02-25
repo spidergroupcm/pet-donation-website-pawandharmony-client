@@ -3,6 +3,7 @@ import axios from "axios";
 import { Helmet } from "react-helmet-async";
 import banner1 from "../assets/banner-img/banner1.png";
 import PetAdoption from "../components/Home/PetAdoption";
+import PetCareTips from "../components/Home/PetCareTips";
 
 const Home = () => {
   const [pets, setPets] = useState([]);
@@ -76,6 +77,7 @@ const Home = () => {
 
 
       <PetAdoption></PetAdoption>
+      <PetCareTips></PetCareTips>
 
 
 
