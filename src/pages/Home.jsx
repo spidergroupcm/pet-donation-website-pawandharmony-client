@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Helmet } from "react-helmet-async";
 import banner1 from "../assets/banner-img/banner1.png";
+import PetAdoption from "../components/Home/PetAdoption";
 
 const Home = () => {
   const [pets, setPets] = useState([]);
@@ -71,6 +72,16 @@ const Home = () => {
           See All Pets
         </a>
       </section>
+
+
+
+      <PetAdoption></PetAdoption>
+
+
+
+
+
+
 
       {/* Call to Action Section */}
       <section className="py-16 bg-yellow-100 text-center">

@@ -14,7 +14,7 @@ const Main = () => {
       <Navbar></Navbar>
       
       <div>
-        <div className='max-w-7xl mx-auto  min-h-[calc(100vh-68px)]'>
+        <div className='min-h-[calc(100vh-68px)]'>
         <Outlet />
         </div>
       </div>
