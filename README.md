@@ -8,7 +8,7 @@ Welcome to the **Pet Donation Website**, a dynamic and user-friendly platform de
 
 ## 🚀 Features
 
-## 🔗 Live Link - https://paw-and-harmony.web.app/
+## 🔗 Live Link - https://paw-and-harmony.web.app
 
 ### 🔐 User Authentication  
 - Secure login and registration with **Firebase Authentication**.  
