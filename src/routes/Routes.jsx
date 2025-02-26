@@ -24,6 +24,7 @@ import MyDonationCampaign from "../pages/MyDonationCampaign";
 import MyDonations from "../pages/MyDonations";
 import AllPetsAdmin from "../pages/AllPetsAdmin";
 import AllCampaigns from "../pages/AllCampaigns";
+import Blog from "../pages/Blog";
 
 
 
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/donation-campaigns",
         element: <DonationCampaigns />,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>
       },
       {
         path: '/pet/:id',

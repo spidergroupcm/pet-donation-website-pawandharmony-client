@@ -64,6 +64,11 @@ const Navbar = () => {
                 Donation
               </Link>
             </li>
+            <li>
+              <Link to="/blog" className="hover:underline">
+                Blog
+              </Link>
+            </li>
           </ul>
           {user ? (
             <div className="relative">
