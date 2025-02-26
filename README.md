@@ -1,4 +1,4 @@
-# 🐾 Pet Donation Website | Assignment-12 | Category-9
+# 🐾 Paw & Harmony | Pet Donation Website 
 
 Welcome to the **Pet Donation Website**, a dynamic and user-friendly platform designed to streamline the process of pet donation and adoption. Our mission is to connect pets with loving homes, ensuring they find their forever families. Built with the powerful **MERN stack**, this application features robust authentication via **Firebase** and secure data management using **JWT**.
 
